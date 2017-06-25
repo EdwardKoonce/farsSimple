@@ -1,0 +1,21 @@
+Package: farsSimple
+Type: Package
+Title: Simple Analysis of fars Data
+Version: 1.1.0
+Author: Edward Koonce
+Maintainer: Edward Koonce <ted75077@earthlink.net>
+Description: This package provides functions, which will read a fars csv file
+    based on an input of a list of years, and which will provide a dataframe
+    from which a summary of accidents for a given year and month can be obtained.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+    readr,
+    magrittr,
+    tidyr
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
